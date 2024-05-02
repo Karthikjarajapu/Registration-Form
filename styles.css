@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; 
+  margin: 0;
+  padding: 0;
+}
+.top-heading {
+    font-size: 25px;
+    border-style: double;
+    padding: 25px 0;
+    text-align: center; 
+    line-height: 1; 
+}
+
+.website-container {
+  display: grid; 
+  grid-template-columns: 1fr auto; 
+  gap: 20px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+
+
+.registration-container {
+  background-color: #fff; 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  width: 150px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.declaration-container {
+  display:
+}
+.photo-box img,
+.signature-box img {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.photo-signature-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; 
+  }
+  
+  .photo-box,
+  .signature-box {
+    margin-bottom: 15px;
+  }
+  
+  .photo-box label,
+  .signature-box label {
+    display: block;
+    text-align: center;
+  }
+  
+  .photo-box img,
+  .signature-box img {
+    width: 100px; 
+    height: 100px; 
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 auto; 
+  }
+  .photo-signature-container {
+    position: absolute;
+    top: 100px; 
+    right: 20px; 
+    display: flex;
+    flex-direction: column;
+  }
+  .centered-submit {
+    display: flex;
+    justify-content: center;
+  }
